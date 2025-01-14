@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://milenaslv20.github.io/portfolio-milena/",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
