@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-milena/static/css/main.ab8a6916.css",
+    "main.js": "/portfolio-milena/static/js/main.2878db85.js",
+    "static/media/Me.svg": "/portfolio-milena/static/media/Me.28516e65c8d0742c400bf57ea4873622.svg",
+    "index.html": "/portfolio-milena/index.html",
+    "static/media/IconOption.svg": "/portfolio-milena/static/media/IconOption.3531f0881249ab945da63cccac0141cc.svg",
+    "main.ab8a6916.css.map": "/portfolio-milena/static/css/main.ab8a6916.css.map",
+    "main.2878db85.js.map": "/portfolio-milena/static/js/main.2878db85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab8a6916.css",
+    "static/js/main.2878db85.js"
+  ]
+}
