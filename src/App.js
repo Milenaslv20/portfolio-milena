@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import HomeP from "./pages/portuguese/HomeP";
+import Portuguese from "./pages/portuguese/Portuguese";
 
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/" element={<HomeP />} />
+      <Route path="/" element={<Portuguese />} />
     </Routes>
   </Router>
 )

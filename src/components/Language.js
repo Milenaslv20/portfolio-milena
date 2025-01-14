@@ -6,8 +6,11 @@ const Language = ({ isOpen, onClose }) => {
 
   return (
     <div className={styles.container_language}>
+      <div className={styles.options2}>
+        <h1>Idioma</h1>
+      </div>
+
         <div className={styles.options}>
-            <h1>Idioma</h1>
             <h1 id={styles.option_lang}>Português</h1>
             <h1 id={styles.option_lang}>Inglês</h1>
         </div>

@@ -28,7 +28,7 @@ function NavigationBar() {
             <h1>Agradecimento</h1>
         </div>
 
-        <img className={styles.icon_option} src={IconOption} onClick={openModal}/>
+        <img className={styles.icon_option} src={IconOption} alt='option' onClick={openModal}/>
 
         {isModalOpen && (
                 <Language isOpen={setIsModalOpen} onClose={closeModal} />

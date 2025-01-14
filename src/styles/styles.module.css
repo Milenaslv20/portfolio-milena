@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk:SHLN@0..100&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron&display=swap');
+
+/* TODO: GENERAL STYLES */
+.text_inter{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text_openSans{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* TODO: STYLES HOMEP */
+.container_home{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* TODO: STYLES NAVBAR */
 .container_nav{
@@ -13,6 +35,8 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 7px;
+    z-index: 1000;
+    font-weight: 100;
 }
 
 .navigation{
@@ -26,6 +50,7 @@
 .navigation h1{
     width: fit-content;
     cursor: pointer;
+    transition: 0.5s;
 }
 .navigation h1:hover{
     text-shadow: 0px 0px 9px #fff;
@@ -53,7 +78,6 @@
     top: 0;
     float: right;
     font-size: 8px;
-    display: flex;
 }
 
 .button_close_modal{
@@ -72,16 +96,111 @@
 }
 
 .options{
-    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    left: 5%;
 }
 
 #option_lang:hover{
     background-color: #2D2D2D;
     cursor: pointer;
     width: 100%;
+}
+
+
+
+/* TODO: STYLES HOME COMPONENT */
+.img_me{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container_home_comp{
+    margin-top: 6.3%;
+    display: flex;
+}
+
+#text_inter{
+    font-size: 17vh;
+    font-weight: 600;
+    width: 65vh;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+#text_openSans{
+    position: relative;
+    left: 15.5%;
+    top: 22%;
+    width: 65%;
+}
+
+.line_home{
+    width: 20%;
+    height: 0.2px;
+    background-color: #fff;
+    position: relative;
+    right: 0;
+    float: right;
+    top: 52%;
+}
+
+
+/* TODO: STYLES RESPONSIVE */
+@media (max-width: 768px){
+    /* TODO: STYLES NAVBAR */
+    .container_nav{
+        height: 10%;
+        width: 100%;
+        left: 0;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .navigation{
+        font-size: 80%;
+        left: 5%;
+        justify-content: space-around;
+    }
+
+
+
+    /* TODO: STYLES HOME COMPONENT */
+    .container_home_comp{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .img_me{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .img_me img{
+        width: 78%;
+        max-width: 400px;
+    }
+
+    #text_inter{
+        font-size: 450%;
+        width: 90%;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    #text_openSans{
+        left: 10%;
+        width: 80%;
+    }
+
+    .line_home{
+        top: 35%;
+        width: 15%;
+    }
 }
