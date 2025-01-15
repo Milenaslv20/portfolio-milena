@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Portuguese from "./pages/portuguese/Portuguese";
 
 const App = () => (
-  <Router>
+  <Router basename="/portfolio-milena">
     <Routes>
       <Route path="/" element={<Portuguese />} />
     </Routes>
