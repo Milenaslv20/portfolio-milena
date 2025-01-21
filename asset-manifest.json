@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-milena/static/css/main.017a35ef.css",
-    "main.js": "/portfolio-milena/static/js/main.991d7ce0.js",
+    "main.css": "/portfolio-milena/static/css/main.151380fb.css",
+    "main.js": "/portfolio-milena/static/js/main.eaaac325.js",
     "static/media/Me.svg": "/portfolio-milena/static/media/Me.28516e65c8d0742c400bf57ea4873622.svg",
     "index.html": "/portfolio-milena/index.html",
-    "static/media/IconOption.svg": "/portfolio-milena/static/media/IconOption.5ad61ed50669267ba12ac6f8f85e7fe0.svg",
-    "main.017a35ef.css.map": "/portfolio-milena/static/css/main.017a35ef.css.map",
-    "main.991d7ce0.js.map": "/portfolio-milena/static/js/main.991d7ce0.js.map"
+    "static/media/IconOption.svg": "/portfolio-milena/static/media/IconOption.3531f0881249ab945da63cccac0141cc.svg",
+    "main.151380fb.css.map": "/portfolio-milena/static/css/main.151380fb.css.map",
+    "main.eaaac325.js.map": "/portfolio-milena/static/js/main.eaaac325.js.map"
   },
   "entrypoints": [
-    "static/css/main.017a35ef.css",
-    "static/js/main.991d7ce0.js"
+    "static/css/main.151380fb.css",
+    "static/js/main.eaaac325.js"
   ]
 }
