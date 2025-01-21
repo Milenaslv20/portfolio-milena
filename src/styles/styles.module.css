@@ -71,7 +71,7 @@
 /* TODO: STYLES LANGUAGE OPTION */
 .container_language{
     width: 11%;
-    height: 20%;
+    height: 25.7%;
     background-color: #000;
     position: fixed;
     right: 0;
@@ -81,28 +81,34 @@
 }
 
 .button_close_modal{
-    width: 45px;
-    height: 45px;
-    border-radius: 80px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
     border: none;
     outline: none;
     background-color: #720505;
     cursor: pointer;
-    position: relative;
-    left: 10%;
-    top: -3%;
+    position: absolute;
+    top: 0;
+    right: 0;
     font-weight: bold;
     font-size: 18px;
 }
 
-.options{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
+.modal_header{
+    padding: 10% 10% 15% 18%;
+    font-size: 11px
 }
 
-#option_lang:hover{
+.option_lang{
+    padding: 10% 10% 10% 18%;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+}
+.option_lang:hover{
     background-color: #2D2D2D;
     cursor: pointer;
     width: 100%;

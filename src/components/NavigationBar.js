@@ -5,7 +5,7 @@ import IconOption from '../svg/IconOption.svg';
 
 import Language from './Language';
 
-function NavigationBar() {
+const NavigationBar = ( { option1, option2, option3, option4, option5, languageTitle, optionLang1, optionLang2} ) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openModal = () =>{
@@ -21,17 +21,23 @@ function NavigationBar() {
         <h1 className={styles.name}>MILENA MEDEIROS</h1>
 
         <div className={styles.navigation}>
-            <h1>Home</h1>
-            <h1>Sobre mim</h1>
-            <h1>Projetos</h1>
-            <h1>Contato</h1>
-            <h1>Agradecimento</h1>
+            <h1>{option1}</h1>
+            <h1>{option2}</h1>
+            <h1>{option3}</h1>
+            <h1>{option4}</h1>
+            <h1>{option5}</h1>
         </div>
 
         <img className={styles.icon_option} src={IconOption} alt='option' onClick={openModal}/>
 
         {isModalOpen && (
-                <Language isOpen={setIsModalOpen} onClose={closeModal} />
+                <Language 
+                    isOpen={setIsModalOpen} 
+                    onClose={closeModal}
+                    titleHeader={languageTitle}
+                    option1Lang={optionLang1}
+                    option2Lang={optionLang2}
+                />
             )
         }
     </div>
