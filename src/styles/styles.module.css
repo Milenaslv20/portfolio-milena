@@ -68,10 +68,10 @@
 }
 
 
-/* TODO: STYLES LANGUAGE OPTION */
+/* TODO: STYLES LANGUAGE COMPONENT */
 .container_language{
     width: 11%;
-    height: 25.7%;
+    height: min-content;
     background-color: #000;
     position: fixed;
     right: 0;
@@ -151,7 +151,7 @@
     position: relative;
     right: 0;
     float: right;
-    top: 52%;
+    top: 50vh;
 }
 
 
@@ -170,8 +170,13 @@
 
     .navigation{
         font-size: 80%;
-        left: 5%;
+        left: 2%;
         justify-content: space-around;
+        width: 87%;
+    }
+
+    .icon_option{
+        width: 5%;
     }
 
 
@@ -195,9 +200,11 @@
     #text_inter{
         font-size: 450%;
         width: 90%;
-        left: 0;
+        left: 1%;
         top: 0;
+        width: 74%;
         text-align: center;
+        margin-bottom: 8%;
     }
 
     #text_openSans{
@@ -208,5 +215,32 @@
     .line_home{
         top: 35%;
         width: 15%;
+    }
+
+    .line_home{
+        top: 19vh;
+        width: 28%;
+    }
+
+
+
+    /* TODO: STYLES LANGUAGE COMPONENT */
+    .container_language{
+        width: 30%;
+        height: min-content;
+
+    }
+
+    .button_close_modal{
+        width: 20%;
+        height: 20%;
+    }
+
+    .modal_header{
+        font-size: 9px;
+    }
+
+    .option_lang{
+        font-size: 15px;
     }
 }
