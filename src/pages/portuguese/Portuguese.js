@@ -26,6 +26,8 @@ function Portuguese() {
         Ao longo da minha trajetória, busco aprimorar minhas habilidades em linguagens de programação e frameworks utilizadas atualmente Neste portfólio, 
         compartilho alguns dos projetos que refletem meu aprendizado e empenho em criar soluções eficientes e inovadoras, sempre em busca de novos desafios 
         e oportunidades para crescer profissionalmente"
+
+        buttonHome="Explorar"
       />
     </div>
   )

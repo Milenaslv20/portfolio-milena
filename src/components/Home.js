@@ -3,7 +3,7 @@ import styles from '../styles/styles.module.css'
 
 import Me from '../svg/Me.svg'
 
-const Home = ( { titleHome, paragraphHome } ) => {
+const Home = ( { titleHome, paragraphHome, buttonHome } ) => {
   return (
     <div className={styles.container_home_comp}>
         <div className={styles.img_me}>
@@ -16,6 +16,8 @@ const Home = ( { titleHome, paragraphHome } ) => {
             <h1 className={styles.text_inter} id={styles.text_inter}>{titleHome}</h1>
 
             <p className={styles.text_openSans} id={styles.text_openSans}>{paragraphHome}</p>
+
+            <button className={styles.text_inter} id={styles.button_home}>{buttonHome}</button>
         </div>
     </div>
   )

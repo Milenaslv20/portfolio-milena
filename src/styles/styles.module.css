@@ -124,7 +124,7 @@
 }
 
 .container_home_comp{
-    margin-top: 6.3%;
+    margin-top: 2%;
     display: flex;
 }
 
@@ -153,6 +153,24 @@
     float: right;
     top: 50vh;
 }
+
+#button_home {
+    position: relative;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    width: 15%;
+    height: 7%;
+    font-weight: bold;
+    top: 27%;
+    left: 15%;
+    cursor: pointer;
+    transition: 0.9s;
+}
+#button_home:hover{
+    box-shadow: 0px 0px 9px #fff;
+}
+
 
 
 /* TODO: STYLES RESPONSIVE */
@@ -200,7 +218,7 @@
     #text_inter{
         font-size: 450%;
         width: 90%;
-        left: 1%;
+        left: 8%;
         top: 0;
         width: 74%;
         text-align: center;
@@ -213,15 +231,16 @@
     }
 
     .line_home{
-        top: 35%;
+        top: 19vh;
         width: 15%;
     }
 
-    .line_home{
-        top: 19vh;
-        width: 28%;
+    #button_home{
+        left: 60%;
+        margin-top: 6%;
+        width: 30%;
+        padding: 4%;
     }
-
 
 
     /* TODO: STYLES LANGUAGE COMPONENT */

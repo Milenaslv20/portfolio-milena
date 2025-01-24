@@ -25,6 +25,8 @@ function English() {
         paragraphHome="Hello! Welcome my name is Milena, a professional in constant evolution in the career of systems analysis and development. During this career
         i'm seeking to improve my abilities in programming languages and current frameworks. In this portfolio I share some personal projects that shows my learning
         and effort to create useful and innovative solutions, always searching new challenges and opportunities to grow professionally"
+
+        buttonHome="Explore"
       />
     </div>
   )
