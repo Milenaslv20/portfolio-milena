@@ -5,6 +5,10 @@ import NavigationBar from '../../components/NavigationBar'
 import Home from '../../components/Home'
 
 function Portuguese() {
+  const scroolDiv = (id) =>{
+    document.getElementById(id)?.scrollIntoView({ behavior:'smooth', block: 'start' })
+  }
+
   return (
     <div className={styles.container_home}>
       <NavigationBar 
@@ -17,6 +21,8 @@ function Portuguese() {
         languageTitle="Idioma"
         optionLang1="Português"
         optionLang2="Inglês"
+
+        onNavigate={scroolDiv}
       />
 
       <Home 
