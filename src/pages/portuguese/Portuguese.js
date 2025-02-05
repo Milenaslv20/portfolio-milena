@@ -45,6 +45,8 @@ function Portuguese() {
         p6="Idiomas"
         p7="Inglês (B1)"
 
+        titleProjects="Projetos"
+
         onNavigate={scroolDiv}
       />
     </div>

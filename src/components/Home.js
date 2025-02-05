@@ -5,8 +5,9 @@ import Me from '../svg/Me.svg'
 import Pc1 from '../svg/Pc1.svg'
 import Pc2 from '../svg/Pc2.svg'
 import Pc3 from '../svg/Pc3.svg'
+import ImageProj from '../svg/ImageProj1.svg'
 
-const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, onNavigate} ) => {
+const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, titleProjects, onNavigate} ) => {
   return (
     <div className={styles.container_home}>
       {/*HOME COMPONENT*/}
@@ -99,12 +100,22 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
         </div>
       </div>
 
-      <div className={styles.line_divis} id='aboutMe'>
+      <div className={styles.line_divis} id='projects'>
         <div className={styles.line_div}></div>
       </div>
 
       {/*PROJECTS COMPONENT*/}
+      <div className={styles.container_project}>
+        <div className={styles.div_proj}>
+            <h1 className={styles.text_inter} id={styles.title_projects}>{titleProjects}</h1>
+            <div className={styles.line_projects}></div>
+            <img src={ImageProj} className={styles.img_proj1}></img>
 
+            <div className={styles.texts_project}>
+              <h1 className={styles.text_inter}>1. power bi</h1>
+            </div>
+        </div>
+      </div>
     </div>
   )
 }

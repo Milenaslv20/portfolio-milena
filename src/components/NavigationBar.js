@@ -23,7 +23,7 @@ const NavigationBar = ( { option1, option2, option3, option4, option5, languageT
         <div className={styles.navigation}>
             <h1 onClick={() => onNavigate("home")}>{option1}</h1>
             <h1 onClick={() => onNavigate("aboutMe")}>{option2}</h1>
-            <h1>{option3}</h1>
+            <h1 onClick={() => onNavigate("projects")}>{option3}</h1>
             <h1>{option4}</h1>
             <h1>{option5}</h1>
         </div>
