@@ -6,6 +6,9 @@ import Pc1 from '../svg/Pc1.svg'
 import Pc2 from '../svg/Pc2.svg'
 import Pc3 from '../svg/Pc3.svg'
 import ImageProj from '../svg/ImageProj1.svg'
+import ImageProj2 from '../svg/ImageProj2.svg'
+
+import IconElipsis from '../svg/IconEllipsis.svg'
 
 const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, titleProjects, onNavigate} ) => {
   return (
@@ -109,11 +112,33 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
         <div className={styles.div_proj}>
             <h1 className={styles.text_inter} id={styles.title_projects}>{titleProjects}</h1>
             <div className={styles.line_projects}></div>
-            <img src={ImageProj} className={styles.img_proj1}></img>
+            <img src={ImageProj} alt='' className={styles.img_proj1}></img>
+            <img src={ImageProj2} alt='' className={styles.img_proj2}></img>
 
             <div className={styles.texts_project}>
-              <h1 className={styles.text_inter}>1. power bi</h1>
+              <h1 className={styles.text_inter} id={styles.title_projects1}>1. power bi</h1>
+              <div className={styles.line_projects_p}></div>
+              <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              </p>
             </div>
+
+            <img src={IconElipsis} alt='' className={styles.icon_projects}></img>
+
+            <div className={styles.texts_project} id={styles.texts_project2}>
+              <h1 className={styles.text_inter} id={styles.title_projects1}>2. power bi</h1>
+              <div className={styles.line_projects_p} id={styles.line_projects3}></div>
+              <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              </p>
+            </div>
+
+            <img src={ImageProj} alt='' className={styles.img_proj2} id={styles.img_proj2}></img>
+            <img src={ImageProj2} alt='' className={styles.img_proj1} id={styles.img_proj3}></img>
+            
+            <img src={IconElipsis} alt='' className={styles.icon_projects} id={styles.icon_projects2}></img>
         </div>
       </div>
     </div>
