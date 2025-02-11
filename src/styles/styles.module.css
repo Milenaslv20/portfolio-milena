@@ -271,8 +271,7 @@
 .container_project{
     display: flex;
     width: 100%;
-    height: 400vh;
-    background-color: #720505;
+    height: 365vh;
 }
 
 .div_proj{
@@ -313,13 +312,16 @@
     top: 2%;
     left: 8%
 }
-#img_proj2{
+#img_proj3{
     top: 4%;
     left: 5%;
 }
-#img_proj3{
+#img_proj4{
     top: -7.5%;
     left: -5%;
+}
+#img_proj5{
+    top: 8%;
 }
 
 .texts_project{
@@ -333,12 +335,15 @@
     left: 8%;
 }
 #texts_project3{
-    top: 20%;
+    top: 19%;
     left: 55%;
 }
 
 #title_projects1{
     cursor: pointer;
+}
+#title_projects{
+    font-size: 50px;
 }
 
 .text_inter{
@@ -349,7 +354,6 @@
     margin-top: 10%
 }
 
-
 .icon_projects{
     position: relative;
     left: 50%;
@@ -357,7 +361,7 @@
     margin-bottom: 5%;
 }
 #icon_projects2{
-    top: 13.5%;
+    top: 15%;
     left: 10%;
 }
 
@@ -440,7 +444,7 @@
 
     /* TODO: STYLES ABOUT ME COMPONENT */
     .container_about_me{
-        height: 145vh;
+        height: 153vh;
     }
 
     .about_me_text{
@@ -480,12 +484,104 @@
         margin-bottom: 13%;
     }
 
+    .line_divis{
+        top: 5%;
+    }
+
+
+    /* TODO: STYLES PROJECTS COMPONENT */
+    .container_project{
+        height: 365vh;
+        margin: 0;
+    }
+
+    .div_proj{
+        width: 100%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+
+    #title_projects{
+        font-size: 45px;
+        margin-left: 9%;
+    }
+
+    .line_projects{
+        width: 30vh;
+        right: 0;
+        float: right;
+        margin-top: 2%;
+    }
+
+    .img_proj1{
+        width: 75%;
+        top: 5vh;
+        right: 0;
+    }
+    .img_proj2{
+        width: 47%;
+        left: 0;
+        margin-top: 5%;
+    }
+    #img_proj3{
+        top: -35vh;
+        left: 0;
+        width: 70%;
+    }
+    #img_proj4{
+        top: -30vh;
+        margin-right: 9%;
+    }
+    #img_proj5{
+        top: -18vh;
+        right: 0;
+        float: right;
+    }
+    #img_proj6{
+        top: -42vh;
+        left: 0;
+        float: left;
+        width: 35vh;
+    }
+
+    .texts_project{
+        top: -22vh;
+    }
+    .texts_project h1{
+        font-size: 25px;
+    }
+    .line_projects_p{
+        width: 36%;
+    }
+    .texts_project p{
+        font-size: 13px;
+    }
+    #texts_project2{
+        top: 63vh;
+        left: 23%;
+        width: 60%;
+    }
+    #texts_project3{
+        top: 55vh;
+        left: 9vh;
+        width: 33vh;
+    }
+
+    .icon_projects{
+        margin-left: -3vh;
+        top: -13vh;
+    }
+
+    #icon_projects2{
+        left: -10vh;
+    }
+
+
 
     /* TODO: STYLES LANGUAGE COMPONENT */
     .container_language{
         width: 30%;
         height: min-content;
-
     }
 
     .button_close_modal{

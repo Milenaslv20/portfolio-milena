@@ -134,8 +134,8 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             </p>
           </div>
-          <img src={ImageProj} alt='' className={styles.img_proj2} id={styles.img_proj2}></img>
-          <img src={ImageProj2} alt='' className={styles.img_proj1} id={styles.img_proj3}></img>
+          <img src={ImageProj} alt='' className={styles.img_proj2} id={styles.img_proj3}></img>
+          <img src={ImageProj2} alt='' className={styles.img_proj1} id={styles.img_proj4}></img>
             
           <img src={IconElipsis} alt='' className={styles.icon_projects} id={styles.icon_projects2}></img>
         
@@ -147,8 +147,8 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             </p>
           </div>
-          <img src={ImageProj2} alt='' className={styles.img_proj2} id={styles.img_proj2}></img>
-          <img src={ImageProj} alt='' className={styles.img_proj1} id={styles.img_proj3}></img>
+          <img src={ImageProj2} alt='' className={styles.img_proj2} id={styles.img_proj5}></img>
+          <img src={ImageProj} alt='' className={styles.img_proj1} id={styles.img_proj6}></img>
 
 
         </div>
