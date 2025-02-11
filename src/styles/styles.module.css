@@ -332,6 +332,10 @@
     top: 0;
     left: 8%;
 }
+#texts_project3{
+    top: 20%;
+    left: 55%;
+}
 
 #title_projects1{
     cursor: pointer;

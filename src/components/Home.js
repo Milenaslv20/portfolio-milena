@@ -139,8 +139,8 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
             
           <img src={IconElipsis} alt='' className={styles.icon_projects} id={styles.icon_projects2}></img>
         
-          <div className={styles.texts_project}>
-            <h1 className={styles.text_inter} id={styles.title_projects1}>1. power bi</h1>
+          <div className={styles.texts_project} id={styles.texts_project3}>
+            <h1 className={styles.text_inter} id={styles.title_projects1}>3. power bi</h1>
             <div className={styles.line_projects_p}></div>
             <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -149,6 +149,8 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
           </div>
           <img src={ImageProj2} alt='' className={styles.img_proj2} id={styles.img_proj2}></img>
           <img src={ImageProj} alt='' className={styles.img_proj1} id={styles.img_proj3}></img>
+
+
         </div>
       </div>
     </div>
