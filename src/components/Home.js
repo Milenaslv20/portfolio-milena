@@ -110,35 +110,45 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
       {/*PROJECTS COMPONENT*/}
       <div className={styles.container_project}>
         <div className={styles.div_proj}>
-            <h1 className={styles.text_inter} id={styles.title_projects}>{titleProjects}</h1>
-            <div className={styles.line_projects}></div>
-            <img src={ImageProj} alt='' className={styles.img_proj1}></img>
-            <img src={ImageProj2} alt='' className={styles.img_proj2}></img>
+          <h1 className={styles.text_inter} id={styles.title_projects}>{titleProjects}</h1>
+          <div className={styles.line_projects}></div>
+          <img src={ImageProj} alt='' className={styles.img_proj1}></img>
+          <img src={ImageProj2} alt='' className={styles.img_proj2}></img>
 
-            <div className={styles.texts_project}>
-              <h1 className={styles.text_inter} id={styles.title_projects1}>1. power bi</h1>
-              <div className={styles.line_projects_p}></div>
-              <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              </p>
-            </div>
+          <div className={styles.texts_project}>
+            <h1 className={styles.text_inter} id={styles.title_projects1}>1. power bi</h1>
+            <div className={styles.line_projects_p}></div>
+            <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </p>
+          </div>
 
-            <img src={IconElipsis} alt='' className={styles.icon_projects}></img>
+          <img src={IconElipsis} alt='' className={styles.icon_projects}></img>
 
-            <div className={styles.texts_project} id={styles.texts_project2}>
-              <h1 className={styles.text_inter} id={styles.title_projects1}>2. power bi</h1>
-              <div className={styles.line_projects_p} id={styles.line_projects3}></div>
-              <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              </p>
-            </div>
-
-            <img src={ImageProj} alt='' className={styles.img_proj2} id={styles.img_proj2}></img>
-            <img src={ImageProj2} alt='' className={styles.img_proj1} id={styles.img_proj3}></img>
+          <div className={styles.texts_project} id={styles.texts_project2}>
+            <h1 className={styles.text_inter} id={styles.title_projects1}>2. power bi</h1>
+            <div className={styles.line_projects_p} id={styles.line_projects3}></div>
+            <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </p>
+          </div>
+          <img src={ImageProj} alt='' className={styles.img_proj2} id={styles.img_proj2}></img>
+          <img src={ImageProj2} alt='' className={styles.img_proj1} id={styles.img_proj3}></img>
             
-            <img src={IconElipsis} alt='' className={styles.icon_projects} id={styles.icon_projects2}></img>
+          <img src={IconElipsis} alt='' className={styles.icon_projects} id={styles.icon_projects2}></img>
+        
+          <div className={styles.texts_project}>
+            <h1 className={styles.text_inter} id={styles.title_projects1}>1. power bi</h1>
+            <div className={styles.line_projects_p}></div>
+            <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </p>
+          </div>
+          <img src={ImageProj2} alt='' className={styles.img_proj2} id={styles.img_proj2}></img>
+          <img src={ImageProj} alt='' className={styles.img_proj1} id={styles.img_proj3}></img>
         </div>
       </div>
     </div>
