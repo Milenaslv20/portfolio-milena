@@ -46,6 +46,17 @@ function English() {
 
         titleProjects="Projects"
 
+
+        titleContact="Contact"
+        paragraphContact="Did you liked or have some doubt? Feel free to contact me! I'm avaible to new opportunitties and colaborations. You can find me on the following 
+        channels"
+
+
+        titleThanks="Thanks"
+        paragraphThanks="I apreciate you visit, the tecnology is a powerfull force that connect people and change ideas into reality, having the possibility to explore and 
+        aplicate it's many potentials to create solutions that make the difference. Each shared project represents not just learning but the impact that the tecnology can 
+        have in the world. Many thanks for your interest and feedbacks are welcome"
+
         onNavigate={scroolDiv}
       />
     </div>

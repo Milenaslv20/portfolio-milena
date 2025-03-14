@@ -5,12 +5,17 @@ import Me from '../svg/Me.svg'
 import Pc1 from '../svg/Pc1.svg'
 import Pc2 from '../svg/Pc2.svg'
 import Pc3 from '../svg/Pc3.svg'
+import Pc4 from '../svg/Pc4.svg'
 import ImageProj from '../svg/ImageProj1.svg'
 import ImageProj2 from '../svg/ImageProj2.svg'
+import IconEmail from '../svg/iconEmail.svg'
+import IconGit from '../svg/iconGit.svg'
+import IconLinkedin from '../svg/iconLinkedin.svg'
+import Mountain from '../svg/Mountain.svg'
 
 import IconElipsis from '../svg/IconEllipsis.svg'
 
-const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, titleProjects, onNavigate} ) => {
+const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, titleProjects, titleContact, paragraphContact, titleThanks, paragraphThanks, onNavigate} ) => {
   return (
     <div className={styles.container_home}>
       {/*HOME COMPONENT*/}
@@ -149,9 +154,58 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
           </div>
           <img src={ImageProj2} alt='' className={styles.img_proj2} id={styles.img_proj5}></img>
           <img src={ImageProj} alt='' className={styles.img_proj1} id={styles.img_proj6}></img>
-
-
         </div>
+      </div>
+
+      <div className={styles.line_divis} id='contact'>
+        <div className={styles.line_div}></div>
+      </div>
+
+      {/*CONTACT COMPONENT*/}
+      <div className={styles.container_contact}>
+        <div className={styles.container_img_contact}>
+          <img src={Pc4} alt='' className={styles.img_pc4} id={styles.img_pc4}></img>
+        </div>
+
+        <div className={styles.texts_contact}>
+          <h1 className={styles.text_inter} id={styles.title_contact}>{titleContact}</h1>
+          <div className={styles.line_contact}></div>
+
+          <p className={styles.text_openSans} id={styles.paragraph_contact}>{paragraphContact}</p>
+
+          <div className={styles.icons_contact}>
+            <img src={IconLinkedin} width={45}></img>
+            <a href='https://www.linkedin.com/in/milena-medeiros-b068631b1/' target='_blank' className={styles.text_openSans}>Linkedin</a>
+          </div>
+
+          <div className={styles.icons_contact}>
+            <img src={IconEmail} width={45}></img>
+            <span className={styles.text_openSans}>milenaslvmedeiros@hotmail.com / <br></br> milenaslvmedeiros@gmail.com</span>
+          </div>
+
+          <div className={styles.icons_contact}>
+            <img src={IconGit} width={45}></img>
+            <a href='https://github.com/Milenaslv20' target='_blank' className={styles.text_openSans}>GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.line_divis} id='thanks'>
+        <div className={styles.line_div}></div>
+      </div>
+
+      {/*CONTACT COMPONENT*/}
+      <div className={styles.container_thanks}>
+        <div className={styles.texts_thanks}>
+          <h1 className={styles.text_inter} id={styles.title_thanks}>{titleThanks}</h1>
+          <div className={styles.line_thanks}></div>
+
+          <p className={styles.text_openSans}>{paragraphThanks}</p>
+
+          <span className={styles.text_openSans} id={styles.span}>~by Milena Silva de Medeiros~</span>
+        </div>
+
+        <img src={Mountain} className={styles.img_thanks}></img>
       </div>
     </div>
   )

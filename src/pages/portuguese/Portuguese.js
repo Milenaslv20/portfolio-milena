@@ -33,9 +33,10 @@ function Portuguese() {
         e oportunidades para crescer profissionalmente"
         buttonHome="Explorar"
 
+
         titleAboutMe="Sobre Mim"
-        paragraphAboutMe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        paragraphAboutMe="Profissional em Análise e Desenvolvimento de Sistemas com experiência no desenvolvimento de aplicações web fullstack, visualização 
+        e modelagem de bancos de dados. Entusiasta de tecnologia, resolução de problemas e otimização de processos, em busca de aprendizado contínuo."
         titleAboutMe2="Conhecimentos"
         p1="Linguagem de Programação"
         p2="Frameworks"
@@ -45,7 +46,19 @@ function Portuguese() {
         p6="Idiomas"
         p7="Inglês (B1)"
 
+
         titleProjects="Projetos"
+
+
+        titleContact="Contato"
+        paragraphContact="Gostou ou tem alguma dúvida? Fique à vontade para entrar em contato! Estou disponível para novas oportunidades e colaborações. 
+        Você pode me encontrar pelos seguintes canais"
+
+
+        titleThanks="Agradecimento"
+        paragraphThanks="Agradeço a visita! A tecnologia é uma força poderosa que conecta pessoas e transforma ideias em realidade, podendo-se explorar 
+        suas infinitas possibilidades e aplicar o conhecimento para criar soluções que façam a diferença. Cada projeto compartilhado representa não apenas 
+        aprendizado, mas também o impacto que a tecnologia pode ter no mundo. Fico grata pelo seu interesse e feedbacks serão bem vindos."
 
         onNavigate={scroolDiv}
       />
