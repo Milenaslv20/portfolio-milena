@@ -18,9 +18,9 @@ function Portuguese() {
         option4="Contato"
         option5="Agradecimento"
         
-        languageTitle="Idioma"
-        optionLang1="Português"
-        optionLang2="Inglês"
+        languageTitle="Language"
+        optionLang1="Brazilian Portuguese"
+        optionLang2="English"
 
         onNavigate={scroolDiv}
       />

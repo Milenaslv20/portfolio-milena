@@ -276,7 +276,7 @@
 
 .div_proj{
     width: 100%;
-    margin: 8%;
+    margin: 5% 8% 0 8%;
 }
 
 #title_projects{
@@ -401,6 +401,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    top: -6vh;
 }
 
 #paragraph_contact{
@@ -490,6 +491,25 @@
         width: 5%;
     }
 
+    /* TODO: STYLES LANGUAGE COMPONENT */
+    .container_language{
+        width: 35%;
+        height: min-content;
+    }
+
+    .button_close_modal{
+        width: 17%;
+        height: 17%;
+        font-size: 12px;
+    }
+
+    .modal_header{
+        font-size: 7px;
+    }
+
+    .option_lang{
+        font-size: 15px;
+    }
 
 
     /* TODO: STYLES HOME COMPONENT */
@@ -510,7 +530,6 @@
 
     #text_inter{
         font-size: 450%;
-        width: 90%;
         left: 8%;
         top: 0;
         width: 74%;
@@ -586,26 +605,23 @@
 
     /* TODO: STYLES PROJECTS COMPONENT */
     .container_project{
-        height: 365vh;
+        height: 250vh;
         margin: 0;
     }
 
     .div_proj{
-        width: 100%;
         margin: 0;
         margin-top: 5vh;
     }
 
-    #title_projects{
-        font-size: 45px;
-        margin-left: 9%;
+    #title_projects1{
+        font-size: 23px;
     }
 
     .line_projects{
-        width: 30vh;
-        right: 0;
-        float: right;
-        margin-top: 2%;
+        width: 17vh;
+        position: relative;
+        left: 64%;
     }
 
     .img_proj1{
@@ -628,22 +644,24 @@
         margin-right: 9%;
     }
     #img_proj5{
-        top: -18vh;
+        top: -9vh;
         right: 0;
         float: right;
     }
     #img_proj6{
-        top: -42vh;
+        top: -2vh;
+        position: relative;
         left: 0;
         float: left;
-        width: 35vh;
+        width: 23vh;
+        height: 15vh;
     }
 
     .texts_project{
         top: -22vh;
     }
     .texts_project h1{
-        font-size: 25px;
+        font-size: 23px;
     }
     .line_projects_p{
         width: 36%;
@@ -652,13 +670,13 @@
         font-size: 13px;
     }
     #texts_project2{
-        top: 63vh;
+        top: 61vh;
         left: 23%;
         width: 60%;
     }
     #texts_project3{
-        top: 55vh;
-        left: 9vh;
+        top: 45vh;
+        left: 6vh;
         width: 33vh;
     }
 
@@ -668,27 +686,92 @@
     }
 
     #icon_projects2{
-        left: -10vh;
+        margin-left: -17vh;
+        top: 55vh;
     }
 
 
+    /* TODO: STYLES CONTACT COMPONENT */
+    .container_contact{
+        margin: 0;
+        display: block;
+        height: 120vh;
+    }
 
-    /* TODO: STYLES LANGUAGE COMPONENT */
-    .container_language{
+    .container_img_contact{
+        width: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_img_contact img{
+        width: 65%;
+    }
+
+    .texts_contact{
+        height: 74vh;
+        position: relative;
+        display: flex;
+        width: 80%;
+        left: 17%;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    
+    #paragraph_contact{
+        width: 85%;
+        margin-bottom: 25%;
+    }
+
+    .line_contact{
         width: 30%;
-        height: min-content;
     }
 
-    .button_close_modal{
-        width: 20%;
-        height: 20%;
+    .icons_contact{
+        position: relative;
+        left: -5%;
+        margin-bottom: 12%;
     }
 
-    .modal_header{
-        font-size: 9px;
+    .icons_contact a, span{
+        font-size: 14px;
     }
 
-    .option_lang{
-        font-size: 15px;
+
+    /* TODO: STYLES THANKS COMPONENT */
+    .container_thanks{
+        display: block;
+        height: 110vh;
     }
+
+    .texts_thanks{
+        width: 90%;
+        position: relative;
+        top: 5vh;
+    }
+
+    .texts_thanks p{
+        width: 75%;
+        position: relative;
+        left: 4%;
+    }
+
+    #title_thanks{
+        font-size: 40px;
+    }
+
+    .img_thanks{
+        position: relative;
+        top: 20%;
+        width: 100%;
+    }
+
+    #span{
+        position: relative;
+        top: 10vh;
+        left: 15%;
+    }
+    
 }

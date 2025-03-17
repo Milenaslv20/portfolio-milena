@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../styles/styles.module.css';
 
-import IconOption from '../svg/IconOption.svg';
+import iconLanguage from '../svg/iconLanguage.svg'
 
 import Language from './Language';
 
@@ -28,7 +28,7 @@ const NavigationBar = ( { option1, option2, option3, option4, option5, languageT
             <h1 onClick={() => onNavigate("thanks")}>{option5}</h1>
         </div>
 
-        <img className={styles.icon_option} src={IconOption} alt='option' onClick={openModal}/>
+        <img className={styles.icon_option} src={iconLanguage} alt='option' onClick={openModal}/>
 
         {isModalOpen && (
                 <Language 

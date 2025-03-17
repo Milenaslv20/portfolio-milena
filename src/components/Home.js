@@ -17,10 +17,10 @@ import IconElipsis from '../svg/IconEllipsis.svg'
 
 const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, titleProjects, titleContact, paragraphContact, titleThanks, paragraphThanks, onNavigate} ) => {
   return (
-    <div className={styles.container_home}>
+    <div className={styles.container_home}id='home'>
       {/*HOME COMPONENT*/}
       <div className={styles.container_home_comp}>
-        <div className={styles.img_me} id='home'>
+        <div className={styles.img_me} >
             <img src={Me} alt='' width={685}></img>
         </div>
 
@@ -145,7 +145,7 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
           <img src={IconElipsis} alt='' className={styles.icon_projects} id={styles.icon_projects2}></img>
         
           <div className={styles.texts_project} id={styles.texts_project3}>
-            <h1 className={styles.text_inter} id={styles.title_projects1}>3. power bi</h1>
+            <h1 className={styles.text_inter} id={styles.title_projects1}>3.power bi</h1>
             <div className={styles.line_projects_p}></div>
             <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
