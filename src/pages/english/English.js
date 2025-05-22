@@ -33,8 +33,8 @@ function English() {
         buttonHome="Explore"
 
         titleAboutMe="About Me"
-        paragraphAboutMe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        paragraphAboutMe="Professional in Systems Analysis and Development with experience in developing fullstack web applications, visualization and database modeling. 
+        Enthusiast of technology, problem solving and process optimization, seeking continuous learning."
         titleAboutMe2="Knowledges"
         p1="Programming Languages"
         p2="Frameworks"
