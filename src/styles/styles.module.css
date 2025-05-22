@@ -313,11 +313,11 @@
     left: 8%
 }
 #img_proj3{
-    top: 4%;
+    top: 1%;
     left: 5%;
 }
 #img_proj4{
-    top: -7.5%;
+    top: -14%;
     left: -5%;
 }
 #img_proj5{
@@ -330,8 +330,12 @@
     top: -15%;
     left: 58%
 }
+#texts_project1{
+    margin-top: 15vh;
+    width: 37%;
+}
 #texts_project2{
-    top: 0;
+    top: -7%;
     left: 8%;
 }
 #texts_project3{
@@ -357,7 +361,7 @@
 .icon_projects{
     position: relative;
     left: 50%;
-    top: -2%;
+    top: -9%;
     margin-bottom: 5%;
 }
 #icon_projects2{
@@ -658,7 +662,12 @@
     }
 
     .texts_project{
-        top: -22vh;
+        top: -5vh;
+        left: 15%;
+    }
+    #texts_project1{
+        width: 70%;
+        height: 23%;
     }
     .texts_project h1{
         font-size: 23px;

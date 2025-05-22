@@ -48,6 +48,10 @@ function Portuguese() {
 
 
         titleProjects="Projetos"
+        acess="Acessar:"
+        titlePrj1="1. Relatório de Crimes Ambientais no Amazonas"
+        pProject1="Projeto freelancer de finalização de curso utilizando Power BI e FrontEnd para demonstrar a importância da denúncia de crimes ambientais e
+        o monitoramento desses dados sendo mostrado dados estatísticos reais do estado do Amazonas para visualização e comparação. Não responsivo para celulares."
 
 
         titleContact="Contato"

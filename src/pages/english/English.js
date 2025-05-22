@@ -45,6 +45,10 @@ function English() {
         p7="English (B1) | Brazilian Portuguese(native)"
 
         titleProjects="Projects"
+        access="Access:"
+        titlePrj1="1. Environmental Crimes report in Amazonas"
+        pProject1="Freelance project for course ending using Power BI and FrontEnd to show the importance of report ambiental crimes and mnitor these data for decisions
+        about, having real and statistics data of Amazonas's state to visualize and comparison. Not having responsive design to phones."
 
 
         titleContact="Contact"
