@@ -129,7 +129,7 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
           </div>
 
           <img src={IconElipsis} alt='' className={styles.icon_projects}></img>
-
+          {/* 
           <div className={styles.texts_project} id={styles.texts_project2}>
             <h1 className={styles.text_inter} id={styles.title_projects1}>2. power bi</h1>
             <div className={styles.line_projects_p} id={styles.line_projects3}></div>
@@ -153,6 +153,7 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
           </div>
           <img src={ImageProj2} alt='' className={styles.img_proj2} id={styles.img_proj5}></img>
           <img src={ImageProj} alt='' className={styles.img_proj1} id={styles.img_proj6}></img>
+          */}
         </div>
       </div>
 
