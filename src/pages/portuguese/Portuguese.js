@@ -48,10 +48,15 @@ function Portuguese() {
 
 
         titleProjects="Projetos"
-        acess="Acessar:"
+        access="Acessar:"
         titlePrj1="1. Relatório de Crimes Ambientais no Amazonas"
         pProject1="Projeto freelancer de finalização de curso utilizando Power BI e FrontEnd para demonstrar a importância da denúncia de crimes ambientais e
-        o monitoramento desses dados sendo mostrado dados estatísticos reais do estado do Amazonas para visualização e comparação. Não responsivo para celulares."
+        o monitoramento desses dados sendo mostrado dados estatísticos reais do estado do Amazonas para visualização e comparação. Página web não responsivel 
+        para celulares."
+
+        titlePrj2="1. Calculadora"
+        pProject2="Projeto pessoal de uma calculadora utilizando HTML, CSS E JavaScript para demonstrar, aprender e relembrar conhecimentos de programação. 
+        Página web responsível para desktop e mobile."
 
 
         titleContact="Contato"

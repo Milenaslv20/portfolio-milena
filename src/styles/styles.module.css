@@ -271,7 +271,7 @@
 .container_project{
     display: flex;
     width: 100%;
-    height: 365vh;
+    height: 260vh;
 }
 
 .div_proj{
@@ -313,12 +313,14 @@
     left: 8%
 }
 #img_proj3{
-    top: 1%;
+    top: -4%;
     left: 5%;
+    width: 40%;
 }
 #img_proj4{
     top: -14%;
     left: -5%;
+    width: 40%;
 }
 #img_proj5{
     top: 8%;
@@ -365,7 +367,7 @@
     margin-bottom: 5%;
 }
 #icon_projects2{
-    top: 15%;
+    top: 5%;
     left: 10%;
 }
 
@@ -609,7 +611,7 @@
 
     /* TODO: STYLES PROJECTS COMPONENT */
     .container_project{
-        height: 250vh;
+        height: 140vh;
         margin: 0;
     }
 
@@ -620,18 +622,35 @@
 
     #title_projects1{
         font-size: 23px;
+        position: relative;
+        top: 49%;
+    }
+
+    #paragraph_projects1{
+        position: relative;
+        top: 45%;
+    }
+
+    #acess1{
+        position: relative;
+        top: 45%;
     }
 
     .line_projects{
         width: 17vh;
         position: relative;
-        left: 64%;
+        left: 66%;
+        top: -2%;
     }
 
     .img_proj1{
-        width: 75%;
+        width: 100%;
         top: 5vh;
-        right: 0;
+        left: 0;
+        
+    }
+    #img_proj11{
+        display: none;
     }
     .img_proj2{
         width: 47%;
@@ -639,13 +658,14 @@
         margin-top: 5%;
     }
     #img_proj3{
-        top: -35vh;
+        top: 5vh;
         left: 0;
-        width: 70%;
+        width: 50%;
     }
     #img_proj4{
-        top: -30vh;
-        margin-right: 9%;
+        top: 5vh;
+        width: 40%;
+        right: 0;
     }
     #img_proj5{
         top: -9vh;
@@ -674,13 +694,15 @@
     }
     .line_projects_p{
         width: 36%;
+        position: relative;
+        top: 48%;
     }
     .texts_project p{
         font-size: 13px;
     }
     #texts_project2{
-        top: 61vh;
-        left: 23%;
+        top: 53vh;
+        left: 20%;
         width: 60%;
     }
     #texts_project3{
@@ -691,12 +713,12 @@
 
     .icon_projects{
         margin-left: -3vh;
-        top: -13vh;
+        top: 19%;
     }
 
     #icon_projects2{
         margin-left: -17vh;
-        top: 55vh;
+        top: 30vh;
     }
 
 

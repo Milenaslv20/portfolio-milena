@@ -48,8 +48,11 @@ function English() {
         access="Access:"
         titlePrj1="1. Environmental Crimes report in Amazonas"
         pProject1="Freelance project for course ending using Power BI and FrontEnd to show the importance of report ambiental crimes and mnitor these data for decisions
-        about, having real and statistics data of Amazonas's state to visualize and comparison. Not having responsive design to phones."
+        about, having real and statistics data of Amazonas's state to visualize and comparison. Webpage not having responsive design to phones."
 
+        titlePrj2="1. Calculator"
+        pProject2="Personal project of a calculator developed with HTML, CSS and JavaScript to show, learn and remember knowledges about programming. 
+        Webpage responsive to desktop and mobile."
 
         titleContact="Contact"
         paragraphContact="Did you liked or have some doubt? Feel free to contact me! I'm avaible to new opportunitties and colaborations. You can find me on the following 
