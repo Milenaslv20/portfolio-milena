@@ -33,6 +33,7 @@ function Portuguese() {
         e oportunidades para crescer profissionalmente"
         buttonHome="Explorar"
 
+        //
 
         titleAboutMe="Sobre Mim"
         paragraphAboutMe="Profissional em Análise e Desenvolvimento de Sistemas com experiência no desenvolvimento de aplicações web fullstack, visualização 
@@ -46,6 +47,7 @@ function Portuguese() {
         p6="Idiomas"
         p7="Inglês (B1)"
 
+        //
 
         titleProjects="Projetos"
         access="Acessar:"
@@ -54,15 +56,23 @@ function Portuguese() {
         o monitoramento desses dados sendo mostrado dados estatísticos reais do estado do Amazonas para visualização e comparação. Página web não responsivel 
         para celulares."
 
-        titlePrj2="1. Calculadora"
+        titlePrj2="2. Calculadora"
         pProject2="Projeto pessoal de uma calculadora utilizando HTML, CSS E JavaScript para demonstrar, aprender e relembrar conhecimentos de programação. 
         Página web responsível para desktop e mobile."
 
+        titlePrj3="3. Conversor de dólares para reais"
+        pProject3="Projeto pessoal de um conversor de dólares para reais utilizando HTML, CSS, JavaScript e API de dados para visualização de cotação do dólar
+        em tempo real e conversão de valores. 
+        Página web responsível para desktop e mobile."
+
+
+        //
 
         titleContact="Contato"
         paragraphContact="Gostou ou tem alguma dúvida? Fique à vontade para entrar em contato! Estou disponível para novas oportunidades e colaborações. 
         Você pode me encontrar pelos seguintes canais"
 
+        //
 
         titleThanks="Agradecimento"
         paragraphThanks="Agradeço a visita! A tecnologia é uma força poderosa que conecta pessoas e transforma ideias em realidade, podendo-se explorar 

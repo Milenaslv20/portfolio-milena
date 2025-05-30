@@ -8,8 +8,9 @@ import Pc3 from '../svg/Pc3.svg'
 import Pc4 from '../svg/Pc4.svg'
 import ImageProj from '../svg/painelambiental.JPG'
 import ImageProj2 from '../svg/projambiental.JPG'
-import ImageProj3 from '../svg/calculator_mobile.JPG'
-import ImageProj4 from '../svg/calculator_pc.JPG'
+import ImageProj3 from '../svg/calculator.JPG'
+import ImageProj5 from '../svg/dollar_reais_mobile.JPG'
+import ImageProj6 from '../svg/dollars_reais_desktop.JPG'
 import IconEmail from '../svg/iconEmail.svg'
 import IconGit from '../svg/iconGit.svg'
 import IconLinkedin from '../svg/iconLinkedin.svg'
@@ -17,8 +18,13 @@ import Mountain from '../svg/Mountain.svg'
 
 import IconElipsis from '../svg/IconEllipsis.svg'
 
-const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, titleProjects, 
-  titlePrj1, pProject1, titlePrj2, pProject2, access, titleContact, paragraphContact, titleThanks, paragraphThanks, onNavigate} ) => {
+const Home = ({ 
+  titleHome, paragraphHome, buttonHome, 
+  titleAboutMe, paragraphAboutMe, titleAboutMe2, p1, p2, p3, p4, p5, p6, p7, 
+  titleProjects, titlePrj1, pProject1, titlePrj2, pProject2, access, titlePrj3, pProject3, 
+  titleContact, paragraphContact, 
+  titleThanks, paragraphThanks, onNavigate}) => {
+
   return (
     <div className={styles.container_home}id='home'>
       {/*HOME COMPONENT*/}
@@ -138,22 +144,19 @@ const Home = ( { titleHome, paragraphHome, buttonHome, titleAboutMe, paragraphAb
             <p className={styles.text_openSans} id={styles.paragraph_projects1}>{pProject2}</p>
             <p className={styles.text_openSans} id={styles.acess2}>{access} <a href='https://milenaslv20.github.io/calculator/' target='_blank' className={styles.text_openSans}>https://milenaslv20.github.io/calculator/</a></p>
           </div>
-          <img src={ImageProj4} alt='' className={styles.img_proj2} id={styles.img_proj3}></img>
           <img src={ImageProj3} alt='' className={styles.img_proj1} id={styles.img_proj4}></img>
-        {/* 
+
           <img src={IconElipsis} alt='' className={styles.icon_projects} id={styles.icon_projects2}></img>
          
           <div className={styles.texts_project} id={styles.texts_project3}>
-            <h1 className={styles.text_inter} id={styles.title_projects1}>3.power bi</h1>
+            <h1 className={styles.text_inter} id={styles.title_projects1}>{titlePrj3}</h1>
             <div className={styles.line_projects_p}></div>
-            <p className={styles.text_openSans} id={styles.paragraph_projects1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            </p>
+            <p className={styles.text_openSans} id={styles.paragraph_projects1}>{pProject3}</p>
+            <p className={styles.text_openSans} id={styles.acess2}>{access} <a href='https://milenaslv20.github.io/dollar-conversor/' target='_blank' className={styles.text_openSans}>https://milenaslv20.github.io/dollar-conversor/</a></p>
           </div>
-          <img src={ImageProj2} alt='' className={styles.img_proj2} id={styles.img_proj5}></img>
-          <img src={ImageProj} alt='' className={styles.img_proj1} id={styles.img_proj6}></img>
-          */}
+          <img src={ImageProj5} alt='' className={styles.img_proj2} id={styles.img_proj5}></img>
+          <img src={ImageProj6} alt='' className={styles.img_proj1} id={styles.img_proj6}></img>
+          
         </div>
       </div>
 
