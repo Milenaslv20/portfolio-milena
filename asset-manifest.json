@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-milena/static/css/main.cae6662c.css",
-    "main.js": "/portfolio-milena/static/js/main.862595f5.js",
+    "main.css": "/portfolio-milena/static/css/main.6c20a81f.css",
+    "main.js": "/portfolio-milena/static/js/main.65de6908.js",
     "static/media/Mountain.svg": "/portfolio-milena/static/media/Mountain.78862cc3a3b100cade5b9de1d74f7145.svg",
     "static/media/Pc4.svg": "/portfolio-milena/static/media/Pc4.e3c3f8b5093dc0649e0b5650fabca019.svg",
     "static/media/Me.svg": "/portfolio-milena/static/media/Me.28516e65c8d0742c400bf57ea4873622.svg",
@@ -9,20 +9,21 @@
     "static/media/painelambiental.JPG": "/portfolio-milena/static/media/painelambiental.6ea37d27fc1f568174cf.JPG",
     "static/media/Pc2.svg": "/portfolio-milena/static/media/Pc2.e2375db945478a65e02142251ad9c332.svg",
     "static/media/Pc1.svg": "/portfolio-milena/static/media/Pc1.3681ca1ba94a52dde4c7098a82ff7040.svg",
-    "static/media/calculator_mobile.JPG": "/portfolio-milena/static/media/calculator_mobile.faae14d08f5cd41c0441.JPG",
     "static/media/Pc3.svg": "/portfolio-milena/static/media/Pc3.c0dda436c2432479ff6d499b157a25ac.svg",
-    "static/media/calculator_pc.JPG": "/portfolio-milena/static/media/calculator_pc.24612bb0ff83768f186c.JPG",
+    "static/media/dollars_reais_desktop.JPG": "/portfolio-milena/static/media/dollars_reais_desktop.a2ca03084ab9671977c9.JPG",
+    "static/media/calculator.JPG": "/portfolio-milena/static/media/calculator.865e348821b592dd2c30.JPG",
+    "static/media/dollar_reais_mobile.JPG": "/portfolio-milena/static/media/dollar_reais_mobile.4b6fca6b88c166f34a17.JPG",
     "static/media/iconEmail.svg": "/portfolio-milena/static/media/iconEmail.0947f2f368985659abc8b12fb1ac57fa.svg",
     "static/media/iconLinkedin.svg": "/portfolio-milena/static/media/iconLinkedin.c22cfe40d7f0710b3d2f1649bfc576c1.svg",
     "static/media/iconGit.svg": "/portfolio-milena/static/media/iconGit.396cea3cc7853ec172b58ea15ecd63a2.svg",
     "static/media/IconEllipsis.svg": "/portfolio-milena/static/media/IconEllipsis.73de5ffb7dde98bc4ab5af3fca9805f4.svg",
     "index.html": "/portfolio-milena/index.html",
     "static/media/iconLanguage.svg": "/portfolio-milena/static/media/iconLanguage.b4f64fe3536e7f32d42905fac23f394e.svg",
-    "main.cae6662c.css.map": "/portfolio-milena/static/css/main.cae6662c.css.map",
-    "main.862595f5.js.map": "/portfolio-milena/static/js/main.862595f5.js.map"
+    "main.6c20a81f.css.map": "/portfolio-milena/static/css/main.6c20a81f.css.map",
+    "main.65de6908.js.map": "/portfolio-milena/static/js/main.65de6908.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae6662c.css",
-    "static/js/main.862595f5.js"
+    "static/css/main.6c20a81f.css",
+    "static/js/main.65de6908.js"
   ]
 }
